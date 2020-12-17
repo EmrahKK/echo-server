@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: echo-server-deployment
-  namespace: echo-server
   labels:
     app: echo-server
 spec:
