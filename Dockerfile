@@ -1,4 +1,4 @@
-FROM node:12.19.0-buster-slim
+FROM registry.mkkdev.com.tr/dockerhub_proxy/library/node:12.19.0-buster-slim
 
 WORKDIR /usr/src/app
 

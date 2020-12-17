@@ -12,7 +12,8 @@ dotenv.config()
 app.get('/', (req, res) => {
   res.json({
     version: process.env.APPVERSION,
-    uptime: process.uptime()
+    hostname: os.hostname(),
+    uptime: os.uptime()
   })
 })
 
