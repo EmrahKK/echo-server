@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: echo-server
-        image: harbor.mkkdev.com/echo-server/echo-server:0.1
+        image: registry.mkkdev.com.tr/echo-server/echo-server:v0.0.1
         ports:
         - containerPort: 8080
