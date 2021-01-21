@@ -44,7 +44,7 @@ app.get('/ready',(req,res)=>{
 // Caos
 app.get('/caos',(req,res)=>{
   res.json({
-    message: "ok"
+    message: "Ther will be caos!!!"
   })
 })
 
