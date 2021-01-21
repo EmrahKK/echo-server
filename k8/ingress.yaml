@@ -4,7 +4,7 @@ metadata:
   name: echo-server-ingress
 spec:
   rules:
-  - host: echo-server.kube.mkkdev.com.tr
+  - host: echo-server.mkkdev.com.tr
     http:
       paths:
       - path: /
