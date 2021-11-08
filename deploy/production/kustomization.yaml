@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - ../base
 patchesStrategicMerge:
-  - podinfo-values.yaml
+  - echo-server-values.yaml
