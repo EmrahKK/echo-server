@@ -1,0 +1,16 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: echo-server
+  namespace: apps
+spec:
+  serviceAccountName: echo-server
+  releaseName: echo-server
+  chart:
+    spec:
+      chart: echo-server
+      sourceRef:
+        kind: HelmRepository
+        name: mymharbor
+        namespace: flux-system
+  interval: 5m
