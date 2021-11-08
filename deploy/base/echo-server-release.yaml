@@ -11,6 +11,6 @@ spec:
       chart: echo-server
       sourceRef:
         kind: HelmRepository
-        name: mymharbor
+        name: emrahkk-github-io
         namespace: flux-system
   interval: 5m
