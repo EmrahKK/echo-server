@@ -12,5 +12,4 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: emrahkk-github-io
-        namespace: flux-system
   interval: 1m
